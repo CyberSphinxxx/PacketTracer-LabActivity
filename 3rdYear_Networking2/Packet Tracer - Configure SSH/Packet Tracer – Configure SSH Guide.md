@@ -1,5 +1,8 @@
 # Packet Tracer – Configure SSH (Instructions & Answer Key)
 
+<img width="720" height="307" alt="image" src="https://github.com/user-attachments/assets/afe3c167-a810-4df6-8bb2-a294d8eb2b49" />
+
+
 ## Addressing Table
 
 | Device | Interface | IP Address  | Subnet Mask     |
@@ -29,6 +32,8 @@ In this activity, you will secure a remote switch with password encryption and S
 
 1. Using the command prompt on **PC1**, Telnet to **S1**.  
    - The user EXEC and privileged EXEC password is **cisco**.
+   <img width="603" height="532" alt="image" src="https://github.com/user-attachments/assets/b286f3ae-0739-4031-a6fa-a87d49bc263d" />
+
 
 2. Save the current configuration so that any mistakes can be reversed by toggling the power for S1.
 
