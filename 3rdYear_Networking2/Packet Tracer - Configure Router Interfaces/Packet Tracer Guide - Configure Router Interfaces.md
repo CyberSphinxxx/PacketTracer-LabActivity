@@ -1,7 +1,6 @@
 # 1.4.7 Packet Tracer – Configure Router Interfaces (Answer Guide)
 
 ## Addressing Table
-> Attach your addressing table image here, or fill in the optional table below.
 
 | Device | Interface | IPv4 Address | Subnet Mask | IPv6 Address/Prefix | Default Gateway |
 |---|---|---|---|---|---|
@@ -15,6 +14,9 @@
 | PC4 | NIC | — | — | 2001:db8:c0de:13::a/64 | fe80::2 |
 
 ---
+
+<img width="741" height="509" alt="image" src="https://github.com/user-attachments/assets/13373167-63c3-4552-8165-4f5f152039c6" />
+
 
 ## Objectives
 - **Part 1:** Configure IPv4 Addressing and Verify Connectivity  
@@ -51,7 +53,10 @@ R1(config-if)#ip address 172.16.20.129 255.255.255.128
 R1(config-if)#no shutdown
 ```
 
-📷 *Attach PC1 and PC2 IP configuration screenshots here.*
+<img width="568" height="541" alt="image" src="https://github.com/user-attachments/assets/cedb02f6-d9a1-483f-a914-f71cbc30454a" />
+
+<img width="567" height="541" alt="image" src="https://github.com/user-attachments/assets/f92bfe74-f7dc-48d5-9b0a-83bf313f1975" />
+
 
 > **Tip:** On each PC, set the **default gateway** to the router interface IP on the same subnet.
 
@@ -113,7 +118,10 @@ R2(config-if)#ipv6 address 2001:db8:c0de:13::1/64
 R2(config-if)#no shutdown
 ```
 
-📷 *Attach PC3 and PC4 IPv6 configuration screenshots here.*
+<img width="566" height="532" alt="image" src="https://github.com/user-attachments/assets/5e6a7a3a-b0d5-47f2-b4dc-5bb597c5a7f8" />
+
+<img width="566" height="546" alt="image" src="https://github.com/user-attachments/assets/ac4e6f4e-7fd9-4be0-b76f-002d8fb98233" />
+
 
 > **Tip:** Ensure IPv6 is enabled on PCs and that the **default gateway** is the router’s IPv6 address on the local link.
 
