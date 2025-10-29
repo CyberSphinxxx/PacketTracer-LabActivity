@@ -1,5 +1,6 @@
 # SW 1 Config
 
+```bash
 enable
 configure terminal
 spanning-tree portfast default
@@ -37,7 +38,8 @@ vlan 100
 name Native
 vlan 999
 name BlackHole
-
+```
+```bash
 # SW 2 Config
 
 enable
@@ -57,3 +59,4 @@ switchport nonegotiate
 
 vlan 100
 name Native
+```
